@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fluent-hc" />
+        <module name="httpclient" />
+        <module name="httpclient-cache" />
+        <module name="httpclient-osgi" />
+        <module name="httpclient-win" />
+        <module name="httpmime" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="fluent-hc" target="1.6" />
+      <module name="httpclient" target="1.6" />
+      <module name="httpclient-cache" target="1.6" />
+      <module name="httpclient-osgi" target="1.6" />
+      <module name="httpclient-win" target="1.6" />
+      <module name="httpcomponents-client" target="1.6" />
+      <module name="httpmime" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
